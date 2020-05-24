@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class ejercicio_a {
 /*
 a) Recibir una nota numérica entera entre 0 y IO, y regresar dicha nota de la forma de cadena: cero, uno, dos, tres, etc.
@@ -47,7 +48,7 @@ c) Recibir el día y mes, regresar true si la fecha es correcta o false si no lo
                 System.out.println("La nota ingresada fue DIEZ");
                 break;
             default:
-                System.out.println("Error: La nota ingresada no está en el rango de 0 a 10");
+                System.out.println("Error: La nota ingresada no está en el rango de 0 a 10.");
         }
 
     }
